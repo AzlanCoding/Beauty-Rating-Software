@@ -52,4 +52,4 @@ Overall Rating: 78.14625706071834%
 <br>
 
 This project was very fun and was completed in just <ins>**19 days**</ins>. There was of course much room for improvement.<br>Firstly, training the model on Jupyter Notebook would have been faster and placed less strain on my computer.<br>Secondly, I should have used a pre-trained model that was accurate enough for face biometrics. This would have saved a lot of time and trouble preparing the data for calculation as I would not have needed to create an entire GUI with `pygame` to edit the facial keypoints.<br>Finally, I should have combined all of the programs together so that I could get the output immediately after a face was scanned.
-> Bros gonna go tell me I'm Ugly in 7 different languages. <br> - One of my classmates
+> Bro is gonna go tell me I'm Ugly in 7 different languages. <br> - One of my classmates
