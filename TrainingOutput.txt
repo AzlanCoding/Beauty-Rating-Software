@@ -1,0 +1,4536 @@
+Microsoft Windows [Version 10.0.19044.2486]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\azlan>D:
+
+D:\>cd face
+
+D:\face>python Train.py
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Number of images:  10386
+0 torch.Size([1, 224, 224]) torch.Size([68, 2])
+1 torch.Size([1, 224, 224]) torch.Size([68, 2])
+2 torch.Size([1, 224, 224]) torch.Size([68, 2])
+3 torch.Size([1, 224, 224]) torch.Size([68, 2])
+Net(
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv1): Conv2d(1, 32, kernel_size=(3, 3), stride=(1, 1))
+  (conv2): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1))
+  (conv3): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1))
+  (fc): Linear(in_features=86528, out_features=136, bias=True)
+)
+torch.Size([10, 1, 224, 224])
+torch.Size([10, 68, 2])
+torch.Size([10, 68, 2])
+1
+2
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Traceback (most recent call last):
+  File "D:\face\Train.py", line 109, in <module>
+    list_loss = net.train_model()
+  File "C:\Users\azlan\AppData\Local\Programs\Python\Python310\lib\site-packages\facial_keypoints_detecter\_model_subpkg\_model_submod.py", line 393, in train_model
+    for batch_i, data in enumerate(data_loader):
+  File "C:\Users\azlan\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\utils\data\dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "C:\Users\azlan\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\utils\data\dataloader.py", line 1316, in _next_data
+    idx, data = self._get_data()
+  File "C:\Users\azlan\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\utils\data\dataloader.py", line 1282, in _get_data
+    success, data = self._try_get_data()
+  File "C:\Users\azlan\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\utils\data\dataloader.py", line 1120, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "C:\Users\azlan\AppData\Local\Programs\Python\Python310\lib\multiprocessing\queues.py", line 113, in get
+    if not self._poll(timeout):
+  File "C:\Users\azlan\AppData\Local\Programs\Python\Python310\lib\multiprocessing\connection.py", line 262, in poll
+    return self._poll(timeout)
+  File "C:\Users\azlan\AppData\Local\Programs\Python\Python310\lib\multiprocessing\connection.py", line 335, in _poll
+    return bool(wait([self], timeout))
+  File "C:\Users\azlan\AppData\Local\Programs\Python\Python310\lib\multiprocessing\connection.py", line 884, in wait
+    ready_handles = _exhaustive_wait(waithandle_to_obj.keys(), timeout)
+  File "C:\Users\azlan\AppData\Local\Programs\Python\Python310\lib\multiprocessing\connection.py", line 816, in _exhaustive_wait
+    res = _winapi.WaitForMultipleObjects(L, False, timeout)
+KeyboardInterrupt
+^C
+D:\face>python
+Python 3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import facial_keypoints_detecter as fkd
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+>>> import torch
+>>> import matplotlib.pyplot as plt
+>>> data_transform = fkd.preprocessing.Compose( [ fkd.preprocessing.Rescale(250),
+...                                               fkd.preprocessing.RandomCrop(224),
+...                                               fkd.preprocessing.Normalize(),
+...                                               fkd.preprocessing.ToTensor() ] )
+>>> dataset_train_original = fkd.data.FacialKeypointsDataset( csv_file  = 'C:/Users/azlan/AppData/Local/Programs/Python/Python310/Lib/site-packages/facial_keypoints_detecter/data/training_frames_keypoints.csv',
+...                                                           root_dir  = 'C:/Users/azlan/AppData/Local/Programs/Python/Python310/Lib/site-packages/facial_keypoints_detecter/data/training/',
+...                                                           transform = data_transform )
+>>> data_transform_rotate_clockwise = fkd.preprocessing.Compose( [fkd.preprocessing.Rescale(250),
+...                                                               fkd.preprocessing.RandomCrop(224),
+...                                                               fkd.preprocessing.Normalize(),
+...                                                               fkd.preprocessing.Rotate(-10),
+...                                                               fkd.preprocessing.Rescale(224),
+...                                                               fkd.preprocessing.ToTensor()] )
+>>> dataset_rotate_clockwise = fkd.data.FacialKeypointsDataset( csv_file  = 'C:/Users/azlan/AppData/Local/Programs/Python/Python310/Lib/site-packages/facial_keypoints_detecter/data/training_frames_keypoints.csv',
+...                                                              root_dir  = 'C:/Users/azlan/AppData/Local/Programs/Python/Python310/Lib/site-packages/facial_keypoints_detecter/data/training/',
+...                                                              transform = data_transform_rotate_clockwise )
+>>> data_transform_rotate_anti_clockwise = fkd.preprocessing.Compose(  [fkd.preprocessing.Rescale(250),
+...                                                                     fkd.preprocessing.RandomCrop(224),
+...                                                                     fkd.preprocessing.Normalize(),
+...                                                                     fkd.preprocessing.Rotate(10),
+...                                                                     fkd.preprocessing.Rescale(224),
+...                                                                     fkd.preprocessing.ToTensor()] )
+>>> dataset_rotate_anti_clockwise = fkd.data.FacialKeypointsDataset( csv_file  = 'C:/Users/azlan/AppData/Local/Programs/Python/Python310/Lib/site-packages/facial_keypoints_detecter/data/training_frames_keypoints.csv',
+...                                                                  root_dir  = 'C:/Users/azlan/AppData/Local/Programs/Python/Python310/Lib/site-packages/facial_keypoints_detecter/data/training/',
+...                                                                  transform = data_transform_rotate_anti_clockwise )
+>>> dataset_train = fkd.data.ConcatDataset( [ dataset_train_original,
+...                                           dataset_rotate_clockwise,
+...                                           dataset_rotate_anti_clockwise ])
+>>> print('Number of images: ', len(dataset_train))
+Number of images:  10386
+>>> for i in range(4):
+...     sample = dataset_train[i]
+...     print(i, sample['image'].size(), sample['keypoints'].size())
+...
+0 torch.Size([1, 224, 224]) torch.Size([68, 2])
+1 torch.Size([1, 224, 224]) torch.Size([68, 2])
+2 torch.Size([1, 224, 224]) torch.Size([68, 2])
+3 torch.Size([1, 224, 224]) torch.Size([68, 2])
+>>> batch_size   = 10
+>>> train_loader = fkd.data.DataLoader( dataset_train,
+...                                     batch_size  = batch_size,
+...                                     shuffle     = True,
+...                                     num_workers = 0 )
+>>> data_transform = fkd.preprocessing.Compose( [ fkd.preprocessing.Rescale(250),
+...                                               fkd.preprocessing.RandomCrop(224),
+...                                               fkd.preprocessing.Normalize(),
+...                                               fkd.preprocessing.ToTensor() ] )
+>>> dataset_test = fkd.data.FacialKeypointsDataset( csv_file  = 'C:/Users/azlan/AppData/Local/Programs/Python/Python310/Lib/site-packages/facial_keypoints_detecter/data/test_frames_keypoints.csv',
+...                                                 root_dir  = 'C:/Users/azlan/AppData/Local/Programs/Python/Python310/Lib/site-packages/facial_keypoints_detecter/data/test/',
+...                                                 transform = data_transform )
+>>> batch_size  = 10
+>>> test_loader =  fkd.data.DataLoader( dataset_test,
+...                                     batch_size  = batch_size,
+...                                     shuffle     = True,
+...                                     num_workers = 0 )
+>>> net = fkd.model.Net()
+>>> print(net)
+Net(
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv1): Conv2d(1, 32, kernel_size=(3, 3), stride=(1, 1))
+  (conv2): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1))
+  (conv3): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1))
+  (fc): Linear(in_features=86528, out_features=136, bias=True)
+)
+>>> test_images, test_outputs, gt_pts = net.sample_output(test_loader)
+>>> print(test_images.data.size())
+torch.Size([10, 1, 224, 224])
+>>> print(test_outputs.data.size())
+torch.Size([10, 68, 2])
+>>> print(gt_pts.size())
+torch.Size([10, 68, 2])
+>>> print("1")
+1
+>>> fkd.plots.plot_output(test_images, test_outputs, gt_pts, batch_size = 10)
+>>> fkd.plots.plot_output(test_images, test_outputs, gt_pts, batch_size = 10)
+>>> net.spec.dataset_train = dataset_train
+>>> net.spec.batch_size    = 64                        # Batch size
+>>> net.spec.shuffle       = True                      # Shuffle training data
+>>> net.spec.num_workers   = 4                         # No. of cpu processors to use
+>>> net.spec.criterion     = torch.nn.SmoothL1Loss     # Loss function
+>>> net.spec.optimizer     = torch.optim.Adam          # Optimize
+>>> net.spec.learning_rate = 0.0005                    # Learning rate
+>>> net.spec.n_epochs      = 50                        # No. of epochs
+>>> print("2")
+2
+>>> list_loss = net.train_model()
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 1, Batch: 20, Avg. SmoothL1Loss Loss: 0.11990974396467209
+Epoch: 1, Batch: 40, Avg. SmoothL1Loss Loss: 0.07319480776786805
+Epoch: 1, Batch: 60, Avg. SmoothL1Loss Loss: 0.06669059228152037
+Epoch: 1, Batch: 80, Avg. SmoothL1Loss Loss: 0.06307339183986187
+Epoch: 1, Batch: 100, Avg. SmoothL1Loss Loss: 0.057237882353365424
+Epoch: 1, Batch: 120, Avg. SmoothL1Loss Loss: 0.05951733458787203
+Epoch: 1, Batch: 140, Avg. SmoothL1Loss Loss: 0.05603973567485809
+Epoch: 1, Batch: 160, Avg. SmoothL1Loss Loss: 0.05432978514581919
+Epoch: 1 Complete! SmoothL1Loss Loss: 0.06915239936867613
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 2, Batch: 20, Avg. SmoothL1Loss Loss: 0.05318646859377622
+Epoch: 2, Batch: 40, Avg. SmoothL1Loss Loss: 0.057472952641546726
+Epoch: 2, Batch: 60, Avg. SmoothL1Loss Loss: 0.05192869659513235
+Epoch: 2, Batch: 80, Avg. SmoothL1Loss Loss: 0.052006681077182294
+Epoch: 2, Batch: 100, Avg. SmoothL1Loss Loss: 0.0499035807326436
+Epoch: 2, Batch: 120, Avg. SmoothL1Loss Loss: 0.04861582526937127
+Epoch: 2, Batch: 140, Avg. SmoothL1Loss Loss: 0.05227313283830881
+Epoch: 2, Batch: 160, Avg. SmoothL1Loss Loss: 0.04682481288909912
+Epoch: 2 Complete! SmoothL1Loss Loss: 0.05212441497240906
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 3, Batch: 20, Avg. SmoothL1Loss Loss: 0.05173056740313768
+Epoch: 3, Batch: 40, Avg. SmoothL1Loss Loss: 0.045240051671862604
+Epoch: 3, Batch: 60, Avg. SmoothL1Loss Loss: 0.04269812200218439
+Epoch: 3, Batch: 80, Avg. SmoothL1Loss Loss: 0.041477609798312186
+Epoch: 3, Batch: 100, Avg. SmoothL1Loss Loss: 0.03926998311653733
+Epoch: 3, Batch: 120, Avg. SmoothL1Loss Loss: 0.039142039231956006
+Epoch: 3, Batch: 140, Avg. SmoothL1Loss Loss: 0.03770801313221454
+Epoch: 3, Batch: 160, Avg. SmoothL1Loss Loss: 0.03992086835205555
+Epoch: 3 Complete! SmoothL1Loss Loss: 0.042230431749312965
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 4, Batch: 20, Avg. SmoothL1Loss Loss: 0.040620806999504565
+Epoch: 4, Batch: 40, Avg. SmoothL1Loss Loss: 0.035303591005504134
+Epoch: 4, Batch: 60, Avg. SmoothL1Loss Loss: 0.04055662816390395
+Epoch: 4, Batch: 80, Avg. SmoothL1Loss Loss: 0.033175638783723115
+Epoch: 4, Batch: 100, Avg. SmoothL1Loss Loss: 0.034442415460944176
+Epoch: 4, Batch: 120, Avg. SmoothL1Loss Loss: 0.03417845396324992
+Epoch: 4, Batch: 140, Avg. SmoothL1Loss Loss: 0.03127802424132824
+Epoch: 4, Batch: 160, Avg. SmoothL1Loss Loss: 0.03491944456472993
+Epoch: 4 Complete! SmoothL1Loss Loss: 0.03565541056939113
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 5, Batch: 20, Avg. SmoothL1Loss Loss: 0.03210620060563087
+Epoch: 5, Batch: 40, Avg. SmoothL1Loss Loss: 0.03362538814544678
+Epoch: 5, Batch: 60, Avg. SmoothL1Loss Loss: 0.03166459193453193
+Epoch: 5, Batch: 80, Avg. SmoothL1Loss Loss: 0.03118283273652196
+Epoch: 5, Batch: 100, Avg. SmoothL1Loss Loss: 0.03452976616099477
+Epoch: 5, Batch: 120, Avg. SmoothL1Loss Loss: 0.03025167528539896
+Epoch: 5, Batch: 140, Avg. SmoothL1Loss Loss: 0.029834158811718227
+Epoch: 5, Batch: 160, Avg. SmoothL1Loss Loss: 0.031370574794709685
+Epoch: 5 Complete! SmoothL1Loss Loss: 0.032150322375934064
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 6, Batch: 20, Avg. SmoothL1Loss Loss: 0.030960884224623442
+Epoch: 6, Batch: 40, Avg. SmoothL1Loss Loss: 0.025949807651340962
+Epoch: 6, Batch: 60, Avg. SmoothL1Loss Loss: 0.027924070972949265
+Epoch: 6, Batch: 80, Avg. SmoothL1Loss Loss: 0.03009011810645461
+Epoch: 6, Batch: 100, Avg. SmoothL1Loss Loss: 0.02816510181874037
+Epoch: 6, Batch: 120, Avg. SmoothL1Loss Loss: 0.02910145968198776
+Epoch: 6, Batch: 140, Avg. SmoothL1Loss Loss: 0.02692458648234606
+Epoch: 6, Batch: 160, Avg. SmoothL1Loss Loss: 0.02914632046595216
+Epoch: 6 Complete! SmoothL1Loss Loss: 0.028712045815255906
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 7, Batch: 20, Avg. SmoothL1Loss Loss: 0.035173299908638
+Epoch: 7, Batch: 40, Avg. SmoothL1Loss Loss: 0.029059388395398855
+Epoch: 7, Batch: 60, Avg. SmoothL1Loss Loss: 0.028439219947904347
+Epoch: 7, Batch: 80, Avg. SmoothL1Loss Loss: 0.02502225963398814
+Epoch: 7, Batch: 100, Avg. SmoothL1Loss Loss: 0.031751656997948886
+Epoch: 7, Batch: 120, Avg. SmoothL1Loss Loss: 0.026466458197683097
+Epoch: 7, Batch: 140, Avg. SmoothL1Loss Loss: 0.02685962012037635
+Epoch: 7, Batch: 160, Avg. SmoothL1Loss Loss: 0.026030078204348682
+Epoch: 7 Complete! SmoothL1Loss Loss: 0.02867495955577419
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 8, Batch: 20, Avg. SmoothL1Loss Loss: 0.023714563623070718
+Epoch: 8, Batch: 40, Avg. SmoothL1Loss Loss: 0.022867827443405986
+Epoch: 8, Batch: 60, Avg. SmoothL1Loss Loss: 0.026928374357521535
+Epoch: 8, Batch: 80, Avg. SmoothL1Loss Loss: 0.02941306000575423
+Epoch: 8, Batch: 100, Avg. SmoothL1Loss Loss: 0.02404151512309909
+Epoch: 8, Batch: 120, Avg. SmoothL1Loss Loss: 0.025490403827279805
+Epoch: 8, Batch: 140, Avg. SmoothL1Loss Loss: 0.028061932371929287
+Epoch: 8, Batch: 160, Avg. SmoothL1Loss Loss: 0.02294116565026343
+Epoch: 8 Complete! SmoothL1Loss Loss: 0.025588115131091556
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 9, Batch: 20, Avg. SmoothL1Loss Loss: 0.0260899615008384
+Epoch: 9, Batch: 40, Avg. SmoothL1Loss Loss: 0.024117215629667045
+Epoch: 9, Batch: 60, Avg. SmoothL1Loss Loss: 0.023515201825648546
+Epoch: 9, Batch: 80, Avg. SmoothL1Loss Loss: 0.024444109108299018
+Epoch: 9, Batch: 100, Avg. SmoothL1Loss Loss: 0.02561471061781049
+Epoch: 9, Batch: 120, Avg. SmoothL1Loss Loss: 0.021825003530830146
+Epoch: 9, Batch: 140, Avg. SmoothL1Loss Loss: 0.023473663069307805
+Epoch: 9, Batch: 160, Avg. SmoothL1Loss Loss: 0.02507869089022279
+Epoch: 9 Complete! SmoothL1Loss Loss: 0.024336185151090223
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 10, Batch: 20, Avg. SmoothL1Loss Loss: 0.025068575609475376
+Epoch: 10, Batch: 40, Avg. SmoothL1Loss Loss: 0.023699077870696784
+Epoch: 10, Batch: 60, Avg. SmoothL1Loss Loss: 0.0278179497923702
+Epoch: 10, Batch: 80, Avg. SmoothL1Loss Loss: 0.02589334836229682
+Epoch: 10, Batch: 100, Avg. SmoothL1Loss Loss: 0.02389137279242277
+Epoch: 10, Batch: 120, Avg. SmoothL1Loss Loss: 0.021590303210541607
+Epoch: 10, Batch: 140, Avg. SmoothL1Loss Loss: 0.026756263384595514
+Epoch: 10, Batch: 160, Avg. SmoothL1Loss Loss: 0.022028295183554293
+Epoch: 10 Complete! SmoothL1Loss Loss: 0.024789616120634256
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 11, Batch: 20, Avg. SmoothL1Loss Loss: 0.02358226804062724
+Epoch: 11, Batch: 40, Avg. SmoothL1Loss Loss: 0.023871354945003986
+Epoch: 11, Batch: 60, Avg. SmoothL1Loss Loss: 0.024047932354733348
+Epoch: 11, Batch: 80, Avg. SmoothL1Loss Loss: 0.022307250741869213
+Epoch: 11, Batch: 100, Avg. SmoothL1Loss Loss: 0.0219982142560184
+Epoch: 11, Batch: 120, Avg. SmoothL1Loss Loss: 0.02246069093234837
+Epoch: 11, Batch: 140, Avg. SmoothL1Loss Loss: 0.025225475244224072
+Epoch: 11, Batch: 160, Avg. SmoothL1Loss Loss: 0.022372438805177808
+Epoch: 11 Complete! SmoothL1Loss Loss: 0.02325973968469986
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 12, Batch: 20, Avg. SmoothL1Loss Loss: 0.023536155372858046
+Epoch: 12, Batch: 40, Avg. SmoothL1Loss Loss: 0.020852789236232638
+Epoch: 12, Batch: 60, Avg. SmoothL1Loss Loss: 0.022862133244052528
+Epoch: 12, Batch: 80, Avg. SmoothL1Loss Loss: 0.026287774834781886
+Epoch: 12, Batch: 100, Avg. SmoothL1Loss Loss: 0.024201212171465158
+Epoch: 12, Batch: 120, Avg. SmoothL1Loss Loss: 0.025882855290547013
+Epoch: 12, Batch: 140, Avg. SmoothL1Loss Loss: 0.022397015104070307
+Epoch: 12, Batch: 160, Avg. SmoothL1Loss Loss: 0.019988492596894503
+Epoch: 12 Complete! SmoothL1Loss Loss: 0.023279115488683735
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 13, Batch: 20, Avg. SmoothL1Loss Loss: 0.02324269968084991
+Epoch: 13, Batch: 40, Avg. SmoothL1Loss Loss: 0.02374010724015534
+Epoch: 13, Batch: 60, Avg. SmoothL1Loss Loss: 0.021215139795094727
+Epoch: 13, Batch: 80, Avg. SmoothL1Loss Loss: 0.021064216597005726
+Epoch: 13, Batch: 100, Avg. SmoothL1Loss Loss: 0.022670640656724573
+Epoch: 13, Batch: 120, Avg. SmoothL1Loss Loss: 0.02175483857281506
+Epoch: 13, Batch: 140, Avg. SmoothL1Loss Loss: 0.02007568283006549
+Epoch: 13, Batch: 160, Avg. SmoothL1Loss Loss: 0.020781239354982974
+Epoch: 13 Complete! SmoothL1Loss Loss: 0.02185199023971771
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 14, Batch: 20, Avg. SmoothL1Loss Loss: 0.01937726531177759
+Epoch: 14, Batch: 40, Avg. SmoothL1Loss Loss: 0.020640821382403373
+Epoch: 14, Batch: 60, Avg. SmoothL1Loss Loss: 0.019251219136640428
+Epoch: 14, Batch: 80, Avg. SmoothL1Loss Loss: 0.019700117222964764
+Epoch: 14, Batch: 100, Avg. SmoothL1Loss Loss: 0.02552102473564446
+Epoch: 14, Batch: 120, Avg. SmoothL1Loss Loss: 0.0237793767824769
+Epoch: 14, Batch: 140, Avg. SmoothL1Loss Loss: 0.019107029493898153
+Epoch: 14, Batch: 160, Avg. SmoothL1Loss Loss: 0.020369621738791466
+Epoch: 14 Complete! SmoothL1Loss Loss: 0.021258718092684394
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 15, Batch: 20, Avg. SmoothL1Loss Loss: 0.024061721423640846
+Epoch: 15, Batch: 40, Avg. SmoothL1Loss Loss: 0.021234849002212286
+Epoch: 15, Batch: 60, Avg. SmoothL1Loss Loss: 0.020491215866059065
+Epoch: 15, Batch: 80, Avg. SmoothL1Loss Loss: 0.019577444018796086
+Epoch: 15, Batch: 100, Avg. SmoothL1Loss Loss: 0.024285850673913957
+Epoch: 15, Batch: 120, Avg. SmoothL1Loss Loss: 0.01844471525400877
+Epoch: 15, Batch: 140, Avg. SmoothL1Loss Loss: 0.022410777490586044
+Epoch: 15, Batch: 160, Avg. SmoothL1Loss Loss: 0.01926843198016286
+Epoch: 15 Complete! SmoothL1Loss Loss: 0.021379561002515715
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 16, Batch: 20, Avg. SmoothL1Loss Loss: 0.01960278660990298
+Epoch: 16, Batch: 40, Avg. SmoothL1Loss Loss: 0.0169942282140255
+Epoch: 16, Batch: 60, Avg. SmoothL1Loss Loss: 0.02357400287874043
+Epoch: 16, Batch: 80, Avg. SmoothL1Loss Loss: 0.020504119154065848
+Epoch: 16, Batch: 100, Avg. SmoothL1Loss Loss: 0.02215506276115775
+Epoch: 16, Batch: 120, Avg. SmoothL1Loss Loss: 0.018045923812314867
+Epoch: 16, Batch: 140, Avg. SmoothL1Loss Loss: 0.01864385618828237
+Epoch: 16, Batch: 160, Avg. SmoothL1Loss Loss: 0.019397547515109182
+Epoch: 16 Complete! SmoothL1Loss Loss: 0.0199166417558804
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 17, Batch: 20, Avg. SmoothL1Loss Loss: 0.02278701392933726
+Epoch: 17, Batch: 40, Avg. SmoothL1Loss Loss: 0.018946312880143524
+Epoch: 17, Batch: 60, Avg. SmoothL1Loss Loss: 0.02022850764915347
+Epoch: 17, Batch: 80, Avg. SmoothL1Loss Loss: 0.021423920150846244
+Epoch: 17, Batch: 100, Avg. SmoothL1Loss Loss: 0.017583258775994183
+Epoch: 17, Batch: 120, Avg. SmoothL1Loss Loss: 0.02066975454799831
+Epoch: 17, Batch: 140, Avg. SmoothL1Loss Loss: 0.01962205315940082
+Epoch: 17, Batch: 160, Avg. SmoothL1Loss Loss: 0.0188090140465647
+Epoch: 17 Complete! SmoothL1Loss Loss: 0.02008861867297027
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 18, Batch: 20, Avg. SmoothL1Loss Loss: 0.02060447516851127
+Epoch: 18, Batch: 40, Avg. SmoothL1Loss Loss: 0.020422414923086763
+Epoch: 18, Batch: 60, Avg. SmoothL1Loss Loss: 0.01845172243192792
+Epoch: 18, Batch: 80, Avg. SmoothL1Loss Loss: 0.020929959788918494
+Epoch: 18, Batch: 100, Avg. SmoothL1Loss Loss: 0.01941697937436402
+Epoch: 18, Batch: 120, Avg. SmoothL1Loss Loss: 0.016357247624546288
+Epoch: 18, Batch: 140, Avg. SmoothL1Loss Loss: 0.017926870472729207
+Epoch: 18, Batch: 160, Avg. SmoothL1Loss Loss: 0.01731204455718398
+Epoch: 18 Complete! SmoothL1Loss Loss: 0.01901758005152698
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 19, Batch: 20, Avg. SmoothL1Loss Loss: 0.019454423803836107
+Epoch: 19, Batch: 40, Avg. SmoothL1Loss Loss: 0.02137127760797739
+Epoch: 19, Batch: 60, Avg. SmoothL1Loss Loss: 0.01672825925052166
+Epoch: 19, Batch: 80, Avg. SmoothL1Loss Loss: 0.020030093612149358
+Epoch: 19, Batch: 100, Avg. SmoothL1Loss Loss: 0.01828308226540685
+Epoch: 19, Batch: 120, Avg. SmoothL1Loss Loss: 0.017132613761350512
+Epoch: 19, Batch: 140, Avg. SmoothL1Loss Loss: 0.018311636801809073
+Epoch: 19, Batch: 160, Avg. SmoothL1Loss Loss: 0.02148171281442046
+Epoch: 19 Complete! SmoothL1Loss Loss: 0.019083906091565704
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 20, Batch: 20, Avg. SmoothL1Loss Loss: 0.018366991169750692
+Epoch: 20, Batch: 40, Avg. SmoothL1Loss Loss: 0.017230402491986752
+Epoch: 20, Batch: 60, Avg. SmoothL1Loss Loss: 0.018151039211079478
+Epoch: 20, Batch: 80, Avg. SmoothL1Loss Loss: 0.02086515221744776
+Epoch: 20, Batch: 100, Avg. SmoothL1Loss Loss: 0.01931747393682599
+Epoch: 20, Batch: 120, Avg. SmoothL1Loss Loss: 0.02125505995936692
+Epoch: 20, Batch: 140, Avg. SmoothL1Loss Loss: 0.01867583775892854
+Epoch: 20, Batch: 160, Avg. SmoothL1Loss Loss: 0.017850808752700686
+Epoch: 20 Complete! SmoothL1Loss Loss: 0.019167487377323853
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 21, Batch: 20, Avg. SmoothL1Loss Loss: 0.016223264997825025
+Epoch: 21, Batch: 40, Avg. SmoothL1Loss Loss: 0.016518904455006124
+Epoch: 21, Batch: 60, Avg. SmoothL1Loss Loss: 0.01744579253718257
+Epoch: 21, Batch: 80, Avg. SmoothL1Loss Loss: 0.018772167060524224
+Epoch: 21, Batch: 100, Avg. SmoothL1Loss Loss: 0.017553929798305036
+Epoch: 21, Batch: 120, Avg. SmoothL1Loss Loss: 0.01987067670561373
+Epoch: 21, Batch: 140, Avg. SmoothL1Loss Loss: 0.017823136365041136
+Epoch: 21, Batch: 160, Avg. SmoothL1Loss Loss: 0.0175401974003762
+Epoch: 21 Complete! SmoothL1Loss Loss: 0.017977208473984107
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 22, Batch: 20, Avg. SmoothL1Loss Loss: 0.017058891709893942
+Epoch: 22, Batch: 40, Avg. SmoothL1Loss Loss: 0.01580073586665094
+Epoch: 22, Batch: 60, Avg. SmoothL1Loss Loss: 0.016291798511520027
+Epoch: 22, Batch: 80, Avg. SmoothL1Loss Loss: 0.01670705252327025
+Epoch: 22, Batch: 100, Avg. SmoothL1Loss Loss: 0.016643518442288043
+Epoch: 22, Batch: 120, Avg. SmoothL1Loss Loss: 0.018297855742275715
+Epoch: 22, Batch: 140, Avg. SmoothL1Loss Loss: 0.020314831845462324
+Epoch: 22, Batch: 160, Avg. SmoothL1Loss Loss: 0.019812279846519232
+Epoch: 22 Complete! SmoothL1Loss Loss: 0.017741490258938737
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 23, Batch: 20, Avg. SmoothL1Loss Loss: 0.01719260895624757
+Epoch: 23, Batch: 40, Avg. SmoothL1Loss Loss: 0.015390004683285951
+Epoch: 23, Batch: 60, Avg. SmoothL1Loss Loss: 0.018148038582876325
+Epoch: 23, Batch: 80, Avg. SmoothL1Loss Loss: 0.022265107743442057
+Epoch: 23, Batch: 100, Avg. SmoothL1Loss Loss: 0.016527528408914804
+Epoch: 23, Batch: 120, Avg. SmoothL1Loss Loss: 0.015775071922689676
+Epoch: 23, Batch: 140, Avg. SmoothL1Loss Loss: 0.017043815366923808
+Epoch: 23, Batch: 160, Avg. SmoothL1Loss Loss: 0.016065653366968035
+Epoch: 23 Complete! SmoothL1Loss Loss: 0.017321203438634122
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 24, Batch: 20, Avg. SmoothL1Loss Loss: 0.015881057363003492
+Epoch: 24, Batch: 40, Avg. SmoothL1Loss Loss: 0.01921509695239365
+Epoch: 24, Batch: 60, Avg. SmoothL1Loss Loss: 0.01656790724955499
+Epoch: 24, Batch: 80, Avg. SmoothL1Loss Loss: 0.018509447062388062
+Epoch: 24, Batch: 100, Avg. SmoothL1Loss Loss: 0.020112020894885063
+Epoch: 24, Batch: 120, Avg. SmoothL1Loss Loss: 0.01846689232625067
+Epoch: 24, Batch: 140, Avg. SmoothL1Loss Loss: 0.014711064053699374
+Epoch: 24, Batch: 160, Avg. SmoothL1Loss Loss: 0.0171362629160285
+Epoch: 24 Complete! SmoothL1Loss Loss: 0.017574620893064104
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 25, Batch: 20, Avg. SmoothL1Loss Loss: 0.01797342891804874
+Epoch: 25, Batch: 40, Avg. SmoothL1Loss Loss: 0.01785091469064355
+Epoch: 25, Batch: 60, Avg. SmoothL1Loss Loss: 0.015588932251557708
+Epoch: 25, Batch: 80, Avg. SmoothL1Loss Loss: 0.01703663868829608
+Epoch: 25, Batch: 100, Avg. SmoothL1Loss Loss: 0.015710097178816794
+Epoch: 25, Batch: 120, Avg. SmoothL1Loss Loss: 0.016898558288812638
+Epoch: 25, Batch: 140, Avg. SmoothL1Loss Loss: 0.019070470612496136
+Epoch: 25, Batch: 160, Avg. SmoothL1Loss Loss: 0.01583655490539968
+Epoch: 25 Complete! SmoothL1Loss Loss: 0.017087142805304423
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 26, Batch: 20, Avg. SmoothL1Loss Loss: 0.01632411703467369
+Epoch: 26, Batch: 40, Avg. SmoothL1Loss Loss: 0.015674724522978068
+Epoch: 26, Batch: 60, Avg. SmoothL1Loss Loss: 0.01732915984466672
+Epoch: 26, Batch: 80, Avg. SmoothL1Loss Loss: 0.018387850327417254
+Epoch: 26, Batch: 100, Avg. SmoothL1Loss Loss: 0.016573234042152763
+Epoch: 26, Batch: 120, Avg. SmoothL1Loss Loss: 0.019022011384367942
+Epoch: 26, Batch: 140, Avg. SmoothL1Loss Loss: 0.017725853156298398
+Epoch: 26, Batch: 160, Avg. SmoothL1Loss Loss: 0.016519857570528984
+Epoch: 26 Complete! SmoothL1Loss Loss: 0.0172125641486527
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 27, Batch: 20, Avg. SmoothL1Loss Loss: 0.015518673742190004
+Epoch: 27, Batch: 40, Avg. SmoothL1Loss Loss: 0.01752493344247341
+Epoch: 27, Batch: 60, Avg. SmoothL1Loss Loss: 0.01778724673204124
+Epoch: 27, Batch: 80, Avg. SmoothL1Loss Loss: 0.015762542374432087
+Epoch: 27, Batch: 100, Avg. SmoothL1Loss Loss: 0.015532580763101577
+Epoch: 27, Batch: 120, Avg. SmoothL1Loss Loss: 0.017922283569350838
+Epoch: 27, Batch: 140, Avg. SmoothL1Loss Loss: 0.015156533056870102
+Epoch: 27, Batch: 160, Avg. SmoothL1Loss Loss: 0.017441894579678773
+Epoch: 27 Complete! SmoothL1Loss Loss: 0.016660876037483965
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 28, Batch: 20, Avg. SmoothL1Loss Loss: 0.016597203304991127
+Epoch: 28, Batch: 40, Avg. SmoothL1Loss Loss: 0.014658724516630172
+Epoch: 28, Batch: 60, Avg. SmoothL1Loss Loss: 0.015860917558893562
+Epoch: 28, Batch: 80, Avg. SmoothL1Loss Loss: 0.015053834719583391
+Epoch: 28, Batch: 100, Avg. SmoothL1Loss Loss: 0.018984875362366437
+Epoch: 28, Batch: 120, Avg. SmoothL1Loss Loss: 0.014321079989895225
+Epoch: 28, Batch: 140, Avg. SmoothL1Loss Loss: 0.0178266282659024
+Epoch: 28, Batch: 160, Avg. SmoothL1Loss Loss: 0.020059162098914386
+Epoch: 28 Complete! SmoothL1Loss Loss: 0.01700293524535718
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 29, Batch: 20, Avg. SmoothL1Loss Loss: 0.019288599444553255
+Epoch: 29, Batch: 40, Avg. SmoothL1Loss Loss: 0.01804905724711716
+Epoch: 29, Batch: 60, Avg. SmoothL1Loss Loss: 0.01739326729439199
+Epoch: 29, Batch: 80, Avg. SmoothL1Loss Loss: 0.014594187051989138
+Epoch: 29, Batch: 100, Avg. SmoothL1Loss Loss: 0.017637578910216688
+Epoch: 29, Batch: 120, Avg. SmoothL1Loss Loss: 0.015245326003059745
+Epoch: 29, Batch: 140, Avg. SmoothL1Loss Loss: 0.01433340897783637
+Epoch: 29, Batch: 160, Avg. SmoothL1Loss Loss: 0.01595056294463575
+Epoch: 29 Complete! SmoothL1Loss Loss: 0.016703823147295616
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 30, Batch: 20, Avg. SmoothL1Loss Loss: 0.017492795875295997
+Epoch: 30, Batch: 40, Avg. SmoothL1Loss Loss: 0.014322348777204752
+Epoch: 30, Batch: 60, Avg. SmoothL1Loss Loss: 0.016211956180632113
+Epoch: 30, Batch: 80, Avg. SmoothL1Loss Loss: 0.014262001449242234
+Epoch: 30, Batch: 100, Avg. SmoothL1Loss Loss: 0.018565743369981645
+Epoch: 30, Batch: 120, Avg. SmoothL1Loss Loss: 0.015480497013777494
+Epoch: 30, Batch: 140, Avg. SmoothL1Loss Loss: 0.014337269589304924
+Epoch: 30, Batch: 160, Avg. SmoothL1Loss Loss: 0.014956607017666101
+Epoch: 30 Complete! SmoothL1Loss Loss: 0.01568438708897174
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 31, Batch: 20, Avg. SmoothL1Loss Loss: 0.01702263024635613
+Epoch: 31, Batch: 40, Avg. SmoothL1Loss Loss: 0.018376392824575306
+Epoch: 31, Batch: 60, Avg. SmoothL1Loss Loss: 0.016613680869340897
+Epoch: 31, Batch: 80, Avg. SmoothL1Loss Loss: 0.013877444621175527
+Epoch: 31, Batch: 100, Avg. SmoothL1Loss Loss: 0.015359366312623024
+Epoch: 31, Batch: 120, Avg. SmoothL1Loss Loss: 0.015699567506089807
+Epoch: 31, Batch: 140, Avg. SmoothL1Loss Loss: 0.018069071974605323
+Epoch: 31, Batch: 160, Avg. SmoothL1Loss Loss: 0.015751317050307988
+Epoch: 31 Complete! SmoothL1Loss Loss: 0.017280612250123128
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 32, Batch: 20, Avg. SmoothL1Loss Loss: 0.013269050419330597
+Epoch: 32, Batch: 40, Avg. SmoothL1Loss Loss: 0.014591768197715283
+Epoch: 32, Batch: 60, Avg. SmoothL1Loss Loss: 0.017540422687307
+Epoch: 32, Batch: 80, Avg. SmoothL1Loss Loss: 0.016344059817492963
+Epoch: 32, Batch: 100, Avg. SmoothL1Loss Loss: 0.01651663687080145
+Epoch: 32, Batch: 120, Avg. SmoothL1Loss Loss: 0.016429857863113285
+Epoch: 32, Batch: 140, Avg. SmoothL1Loss Loss: 0.014707994740456342
+Epoch: 32, Batch: 160, Avg. SmoothL1Loss Loss: 0.014863129099830985
+Epoch: 32 Complete! SmoothL1Loss Loss: 0.016178566887744782
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 33, Batch: 20, Avg. SmoothL1Loss Loss: 0.014554553898051381
+Epoch: 33, Batch: 40, Avg. SmoothL1Loss Loss: 0.015527291828766466
+Epoch: 33, Batch: 60, Avg. SmoothL1Loss Loss: 0.01679843608289957
+Epoch: 33, Batch: 80, Avg. SmoothL1Loss Loss: 0.013930765725672246
+Epoch: 33, Batch: 100, Avg. SmoothL1Loss Loss: 0.013790453923866153
+Epoch: 33, Batch: 120, Avg. SmoothL1Loss Loss: 0.012956394627690316
+Epoch: 33, Batch: 140, Avg. SmoothL1Loss Loss: 0.01430556084960699
+Epoch: 33, Batch: 160, Avg. SmoothL1Loss Loss: 0.015122346673160791
+Epoch: 33 Complete! SmoothL1Loss Loss: 0.01466818330924452
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 34, Batch: 20, Avg. SmoothL1Loss Loss: 0.0142617866396904
+Epoch: 34, Batch: 40, Avg. SmoothL1Loss Loss: 0.014794728625565768
+Epoch: 34, Batch: 60, Avg. SmoothL1Loss Loss: 0.012524825404398143
+Epoch: 34, Batch: 80, Avg. SmoothL1Loss Loss: 0.01750434087589383
+Epoch: 34, Batch: 100, Avg. SmoothL1Loss Loss: 0.014430382149294018
+Epoch: 34, Batch: 120, Avg. SmoothL1Loss Loss: 0.014772595558315515
+Epoch: 34, Batch: 140, Avg. SmoothL1Loss Loss: 0.015657968027517198
+Epoch: 34, Batch: 160, Avg. SmoothL1Loss Loss: 0.014188194321468473
+Epoch: 34 Complete! SmoothL1Loss Loss: 0.01490617857636585
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 35, Batch: 20, Avg. SmoothL1Loss Loss: 0.014181151473894715
+Epoch: 35, Batch: 40, Avg. SmoothL1Loss Loss: 0.015307461097836494
+Epoch: 35, Batch: 60, Avg. SmoothL1Loss Loss: 0.017280157562345265
+Epoch: 35, Batch: 80, Avg. SmoothL1Loss Loss: 0.014749899413436652
+Epoch: 35, Batch: 100, Avg. SmoothL1Loss Loss: 0.01836528293788433
+Epoch: 35, Batch: 120, Avg. SmoothL1Loss Loss: 0.015851498441770674
+Epoch: 35, Batch: 140, Avg. SmoothL1Loss Loss: 0.016620380245149134
+Epoch: 35, Batch: 160, Avg. SmoothL1Loss Loss: 0.013663921412080527
+Epoch: 35 Complete! SmoothL1Loss Loss: 0.015892054224501788
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 36, Batch: 20, Avg. SmoothL1Loss Loss: 0.013966777874156833
+Epoch: 36, Batch: 40, Avg. SmoothL1Loss Loss: 0.014521345822140574
+Epoch: 36, Batch: 60, Avg. SmoothL1Loss Loss: 0.013556491630151869
+Epoch: 36, Batch: 80, Avg. SmoothL1Loss Loss: 0.014866957487538458
+Epoch: 36, Batch: 100, Avg. SmoothL1Loss Loss: 0.013760022772476076
+Epoch: 36, Batch: 120, Avg. SmoothL1Loss Loss: 0.013667606376111507
+Epoch: 36, Batch: 140, Avg. SmoothL1Loss Loss: 0.014744480699300766
+Epoch: 36, Batch: 160, Avg. SmoothL1Loss Loss: 0.016812350717373192
+Epoch: 36 Complete! SmoothL1Loss Loss: 0.014700560494222574
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 37, Batch: 20, Avg. SmoothL1Loss Loss: 0.016721768118441106
+Epoch: 37, Batch: 40, Avg. SmoothL1Loss Loss: 0.013716427236795425
+Epoch: 37, Batch: 60, Avg. SmoothL1Loss Loss: 0.01615238357335329
+Epoch: 37, Batch: 80, Avg. SmoothL1Loss Loss: 0.013421903504058719
+Epoch: 37, Batch: 100, Avg. SmoothL1Loss Loss: 0.014672162849456072
+Epoch: 37, Batch: 120, Avg. SmoothL1Loss Loss: 0.014633497269824148
+Epoch: 37, Batch: 140, Avg. SmoothL1Loss Loss: 0.0168899298645556
+Epoch: 37, Batch: 160, Avg. SmoothL1Loss Loss: 0.01628006063401699
+Epoch: 37 Complete! SmoothL1Loss Loss: 0.015342972229844258
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 38, Batch: 20, Avg. SmoothL1Loss Loss: 0.011726337438449263
+Epoch: 38, Batch: 40, Avg. SmoothL1Loss Loss: 0.014270520908758045
+Epoch: 38, Batch: 60, Avg. SmoothL1Loss Loss: 0.014721192559227348
+Epoch: 38, Batch: 80, Avg. SmoothL1Loss Loss: 0.01264789414126426
+Epoch: 38, Batch: 100, Avg. SmoothL1Loss Loss: 0.016198791097849607
+Epoch: 38, Batch: 120, Avg. SmoothL1Loss Loss: 0.01342202527448535
+Epoch: 38, Batch: 140, Avg. SmoothL1Loss Loss: 0.012614310649223626
+Epoch: 38, Batch: 160, Avg. SmoothL1Loss Loss: 0.01721501164138317
+Epoch: 38 Complete! SmoothL1Loss Loss: 0.014162825897657945
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 39, Batch: 20, Avg. SmoothL1Loss Loss: 0.017132284119725227
+Epoch: 39, Batch: 40, Avg. SmoothL1Loss Loss: 0.014089983515441417
+Epoch: 39, Batch: 60, Avg. SmoothL1Loss Loss: 0.014352518320083617
+Epoch: 39, Batch: 80, Avg. SmoothL1Loss Loss: 0.015920711541548373
+Epoch: 39, Batch: 100, Avg. SmoothL1Loss Loss: 0.018138044653460382
+Epoch: 39, Batch: 120, Avg. SmoothL1Loss Loss: 0.013182615907862783
+Epoch: 39, Batch: 140, Avg. SmoothL1Loss Loss: 0.013121280865743757
+Epoch: 39, Batch: 160, Avg. SmoothL1Loss Loss: 0.012427968485280872
+Epoch: 39 Complete! SmoothL1Loss Loss: 0.014841011087237685
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 40, Batch: 20, Avg. SmoothL1Loss Loss: 0.014066643454134465
+Epoch: 40, Batch: 40, Avg. SmoothL1Loss Loss: 0.01525676641613245
+Epoch: 40, Batch: 60, Avg. SmoothL1Loss Loss: 0.013587385788559914
+Epoch: 40, Batch: 80, Avg. SmoothL1Loss Loss: 0.014068233221769333
+Epoch: 40, Batch: 100, Avg. SmoothL1Loss Loss: 0.016609498718753456
+Epoch: 40, Batch: 120, Avg. SmoothL1Loss Loss: 0.012145269569009543
+Epoch: 40, Batch: 140, Avg. SmoothL1Loss Loss: 0.01621387233026326
+Epoch: 40, Batch: 160, Avg. SmoothL1Loss Loss: 0.016504337219521402
+Epoch: 40 Complete! SmoothL1Loss Loss: 0.014837431186741148
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 41, Batch: 20, Avg. SmoothL1Loss Loss: 0.014312333660200238
+Epoch: 41, Batch: 40, Avg. SmoothL1Loss Loss: 0.013163213594816625
+Epoch: 41, Batch: 60, Avg. SmoothL1Loss Loss: 0.01193464589305222
+Epoch: 41, Batch: 80, Avg. SmoothL1Loss Loss: 0.01596707389689982
+Epoch: 41, Batch: 100, Avg. SmoothL1Loss Loss: 0.013790438929572702
+Epoch: 41, Batch: 120, Avg. SmoothL1Loss Loss: 0.01601613243110478
+Epoch: 41, Batch: 140, Avg. SmoothL1Loss Loss: 0.015010473830625416
+Epoch: 41, Batch: 160, Avg. SmoothL1Loss Loss: 0.017101935227401555
+Epoch: 41 Complete! SmoothL1Loss Loss: 0.014753764029592276
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 42, Batch: 20, Avg. SmoothL1Loss Loss: 0.01673757270909846
+Epoch: 42, Batch: 40, Avg. SmoothL1Loss Loss: 0.013818562822416424
+Epoch: 42, Batch: 60, Avg. SmoothL1Loss Loss: 0.01888416283763945
+Epoch: 42, Batch: 80, Avg. SmoothL1Loss Loss: 0.014898821781389415
+Epoch: 42, Batch: 100, Avg. SmoothL1Loss Loss: 0.014128637220710515
+Epoch: 42, Batch: 120, Avg. SmoothL1Loss Loss: 0.01614641542546451
+Epoch: 42, Batch: 140, Avg. SmoothL1Loss Loss: 0.015537900989875198
+Epoch: 42, Batch: 160, Avg. SmoothL1Loss Loss: 0.0128537867218256
+Epoch: 42 Complete! SmoothL1Loss Loss: 0.015390174098335851
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 43, Batch: 20, Avg. SmoothL1Loss Loss: 0.016577474121004344
+Epoch: 43, Batch: 40, Avg. SmoothL1Loss Loss: 0.01420680875889957
+Epoch: 43, Batch: 60, Avg. SmoothL1Loss Loss: 0.012287273164838552
+Epoch: 43, Batch: 80, Avg. SmoothL1Loss Loss: 0.01562024224549532
+Epoch: 43, Batch: 100, Avg. SmoothL1Loss Loss: 0.014351847860962153
+Epoch: 43, Batch: 120, Avg. SmoothL1Loss Loss: 0.016332281823270022
+Epoch: 43, Batch: 140, Avg. SmoothL1Loss Loss: 0.013945960951969028
+Epoch: 43, Batch: 160, Avg. SmoothL1Loss Loss: 0.014507066295482218
+Epoch: 43 Complete! SmoothL1Loss Loss: 0.01480358342329661
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 44, Batch: 20, Avg. SmoothL1Loss Loss: 0.013991218153387308
+Epoch: 44, Batch: 40, Avg. SmoothL1Loss Loss: 0.013120320299640298
+Epoch: 44, Batch: 60, Avg. SmoothL1Loss Loss: 0.015024848841130733
+Epoch: 44, Batch: 80, Avg. SmoothL1Loss Loss: 0.01332155792042613
+Epoch: 44, Batch: 100, Avg. SmoothL1Loss Loss: 0.012748001981526614
+Epoch: 44, Batch: 120, Avg. SmoothL1Loss Loss: 0.01380359025206417
+Epoch: 44, Batch: 140, Avg. SmoothL1Loss Loss: 0.015503661194816231
+Epoch: 44, Batch: 160, Avg. SmoothL1Loss Loss: 0.013762202067300677
+Epoch: 44 Complete! SmoothL1Loss Loss: 0.013992737199720225
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 45, Batch: 20, Avg. SmoothL1Loss Loss: 0.015353763615712524
+Epoch: 45, Batch: 40, Avg. SmoothL1Loss Loss: 0.014744468452408909
+Epoch: 45, Batch: 60, Avg. SmoothL1Loss Loss: 0.012172625120729207
+Epoch: 45, Batch: 80, Avg. SmoothL1Loss Loss: 0.01333709005266428
+Epoch: 45, Batch: 100, Avg. SmoothL1Loss Loss: 0.013414485612884164
+Epoch: 45, Batch: 120, Avg. SmoothL1Loss Loss: 0.012720829015597701
+Epoch: 45, Batch: 140, Avg. SmoothL1Loss Loss: 0.012883288087323308
+Epoch: 45, Batch: 160, Avg. SmoothL1Loss Loss: 0.014460975490510463
+Epoch: 45 Complete! SmoothL1Loss Loss: 0.01375862287449432
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 46, Batch: 20, Avg. SmoothL1Loss Loss: 0.01202397330198437
+Epoch: 46, Batch: 40, Avg. SmoothL1Loss Loss: 0.013007458671927452
+Epoch: 46, Batch: 60, Avg. SmoothL1Loss Loss: 0.014528354397043586
+Epoch: 46, Batch: 80, Avg. SmoothL1Loss Loss: 0.016208217618986963
+Epoch: 46, Batch: 100, Avg. SmoothL1Loss Loss: 0.011691091442480683
+Epoch: 46, Batch: 120, Avg. SmoothL1Loss Loss: 0.012630307301878928
+Epoch: 46, Batch: 140, Avg. SmoothL1Loss Loss: 0.013762869685888291
+Epoch: 46, Batch: 160, Avg. SmoothL1Loss Loss: 0.01624012221582234
+Epoch: 46 Complete! SmoothL1Loss Loss: 0.013927406277852479
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 47, Batch: 20, Avg. SmoothL1Loss Loss: 0.017685641534626484
+Epoch: 47, Batch: 40, Avg. SmoothL1Loss Loss: 0.01612347774207592
+Epoch: 47, Batch: 60, Avg. SmoothL1Loss Loss: 0.012802108796313405
+Epoch: 47, Batch: 80, Avg. SmoothL1Loss Loss: 0.012807235354557633
+Epoch: 47, Batch: 100, Avg. SmoothL1Loss Loss: 0.01232198984362185
+Epoch: 47, Batch: 120, Avg. SmoothL1Loss Loss: 0.014392618648707866
+Epoch: 47, Batch: 140, Avg. SmoothL1Loss Loss: 0.013041738001629711
+Epoch: 47, Batch: 160, Avg. SmoothL1Loss Loss: 0.014222661778330804
+Epoch: 47 Complete! SmoothL1Loss Loss: 0.014197654682958935
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 48, Batch: 20, Avg. SmoothL1Loss Loss: 0.01486147940158844
+Epoch: 48, Batch: 40, Avg. SmoothL1Loss Loss: 0.014351986953988672
+Epoch: 48, Batch: 60, Avg. SmoothL1Loss Loss: 0.011592628760263323
+Epoch: 48, Batch: 80, Avg. SmoothL1Loss Loss: 0.015781160769984127
+Epoch: 48, Batch: 100, Avg. SmoothL1Loss Loss: 0.01265447165351361
+Epoch: 48, Batch: 120, Avg. SmoothL1Loss Loss: 0.011346687749028205
+Epoch: 48, Batch: 140, Avg. SmoothL1Loss Loss: 0.01151788248680532
+Epoch: 48, Batch: 160, Avg. SmoothL1Loss Loss: 0.011943192896433174
+Epoch: 48 Complete! SmoothL1Loss Loss: 0.013087904437180654
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 49, Batch: 20, Avg. SmoothL1Loss Loss: 0.016150837857276203
+Epoch: 49, Batch: 40, Avg. SmoothL1Loss Loss: 0.013193066930398345
+Epoch: 49, Batch: 60, Avg. SmoothL1Loss Loss: 0.012408580025658011
+Epoch: 49, Batch: 80, Avg. SmoothL1Loss Loss: 0.0100912717403844
+Epoch: 49, Batch: 100, Avg. SmoothL1Loss Loss: 0.011401227698661387
+Epoch: 49, Batch: 120, Avg. SmoothL1Loss Loss: 0.01264213090762496
+Epoch: 49, Batch: 140, Avg. SmoothL1Loss Loss: 0.014824829250574111
+Epoch: 49, Batch: 160, Avg. SmoothL1Loss Loss: 0.018167556799016892
+Epoch: 49 Complete! SmoothL1Loss Loss: 0.01372477347261192
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+
+==========================================================================
+Importing package 'facial_keypoints_detecter'...
+==========================================================================
+  + Adding module 'auxil'...
+  - Done!
+  + Adding module 'plots'...
+  - Done!
+  + Adding module 'data'...
+  - Done!
+  + Adding module 'model'...
+  - Done!
+  + Adding module 'preprocessing'...
+  - Done!
+==========================================================================
+Package 'facial_keypoints_detecter' imported sucessfully !!
+==========================================================================
+version 1.0.0
+
+Epoch: 50, Batch: 20, Avg. SmoothL1Loss Loss: 0.016272551845759153
+Epoch: 50, Batch: 40, Avg. SmoothL1Loss Loss: 0.010859927162528038
+Epoch: 50, Batch: 60, Avg. SmoothL1Loss Loss: 0.015661359392106534
+Epoch: 50, Batch: 80, Avg. SmoothL1Loss Loss: 0.01437647535931319
+Epoch: 50, Batch: 100, Avg. SmoothL1Loss Loss: 0.012375694373622537
+Epoch: 50, Batch: 120, Avg. SmoothL1Loss Loss: 0.010201158514246345
+Epoch: 50, Batch: 140, Avg. SmoothL1Loss Loss: 0.013419992686249316
+Epoch: 50, Batch: 160, Avg. SmoothL1Loss Loss: 0.017569844610989094
+Epoch: 50 Complete! SmoothL1Loss Loss: 0.013962477014434559
+Finished Training
+>>> plt.xlabel("Epochs")
+Text(0.5, 0, 'Epochs')
+>>> plt.ylabel(net.spec.criterion.__name__)
+Text(0, 0.5, 'SmoothL1Loss')
+>>> plt.plot( range(1,len(list_loss)+1), list_loss, "g-" )
+[<matplotlib.lines.Line2D object at 0x00000299618A1960>]
+>>> plt.show()
+>>> model_name = 'saved_model_facial_keypoints_detector.pt'
+>>> net.save_model(model_name)
+>>> net.load_model('saved_model_facial_keypoints_detector.pt')
+Net(
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv1): Conv2d(1, 32, kernel_size=(3, 3), stride=(1, 1))
+  (conv2): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1))
+  (conv3): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1))
+  (fc): Linear(in_features=86528, out_features=136, bias=True)
+)
+>>> test_images, test_outputs, gt_pts = net.sample_output(test_loader)
+>>> print(test_images.data.size())
+torch.Size([10, 1, 224, 224])
+>>> print(test_outputs.data.size())
+torch.Size([10, 68, 2])
+>>> print(gt_pts.size())
+torch.Size([10, 68, 2])
+>>> fkd.plots.plot_output(test_images, test_outputs, gt_pts)
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+>>> quit()
+
+D:\face>
